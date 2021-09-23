@@ -7,7 +7,7 @@ public abstract class Funcionario { // criação da classe publica e abstrata Fu
     protected String rg;// criacao do vetor protegido rg do tipo String
     protected boolean estaNaEmpresa;// criacao do vetor protegido estaNaEmpresa do tipo boolean
 
-    public String getNome(){// criacao do método getNome do tipo String, abrindo com a chave
+    public String getNome(){// criacao do método publico getNome do tipo String, abrindo com a chave
         return nome;// retorno do vetor nome
     }// fechando o metodo com a chave
 
@@ -15,7 +15,7 @@ public abstract class Funcionario { // criação da classe publica e abstrata Fu
         this.nome = nome;// vetor nome recebendo o parametro nome
     }// fechando o metodo com a chave
 
-    public String getDepartamento(){// criacao do método getDepartamento do tipo String, abrindo com a chave
+    public String getDepartamento(){// criacao do método publico getDepartamento do tipo String, abrindo com a chave
         return departamento;// retorno do vetor departamento
     }// fechando o metodo com a chave
 
@@ -23,7 +23,7 @@ public abstract class Funcionario { // criação da classe publica e abstrata Fu
         this.departamento = departamento;// vetor departamento recebendo o parametro departamento
     }// fechando o metodo com a chave
 
-    public double getSalario(){// criacao do método getSalario do tipo Double, abrindo com a chave
+    public double getSalario(){// criacao do método publico getSalario do tipo double, abrindo com a chave
         return salario;// retorno do vetor salario
     }// fechando o metodo com a chave
 
@@ -31,7 +31,7 @@ public abstract class Funcionario { // criação da classe publica e abstrata Fu
         this.salario = salario;// vetor salario recebendo o parametro salario
     }// fechando o metodo com a chave
 
-    public String getDataDeEntrada(){// criacao do método getDataDeEntrada do tipo String, abrindo com a chave
+    public String getDataDeEntrada(){// criacao do método publico getDataDeEntrada do tipo String, abrindo com a chave
         return dataDeEntrada;// retorno do vetor dataDeEntrada
     }// fechando o metodo com a chave
 
@@ -39,7 +39,7 @@ public abstract class Funcionario { // criação da classe publica e abstrata Fu
         this.dataDeEntrada = dataDeEntrada;// vetor dataDeEntrada recebendo o parametro dataDeEntrada
     }// fechando o metodo com a chave
 
-    public String getRg(){// criacao do método getRg do tipo String, abrindo com a chave
+    public String getRg(){// criacao do método publico getRg do tipo String, abrindo com a chave
         return rg;// retorno do vetor rg
     }// fechando o metodo com a chave
 
@@ -47,7 +47,7 @@ public abstract class Funcionario { // criação da classe publica e abstrata Fu
         this.rg = rg;// vetor rg recebendo o parametro rg
     }// fechando o metodo com a chave
 
-    public boolean getEstaNaEmpresa(){// criacao do método getEstaNaEmpresa do tipo boolean, abrindo com a chave
+    public boolean getEstaNaEmpresa(){// criacao do método publico getEstaNaEmpresa do tipo boolean, abrindo com a chave
         return estaNaEmpresa;// retorno do vetor estaNaEmpresa
     }// fechando o metodo com a chave
 
